@@ -29,7 +29,7 @@ Deconst development is depending on running within docker containers. We'll use 
   $ brew install boot2docker
   $ boot2docker up
 
-One those steps are completed, we should be able to verify your docker installation is running correctly. ::
+Once those steps are completed, we should be able to verify your docker installation is running correctly. ::
 
   $ docker version
 
@@ -57,7 +57,7 @@ Deconst uses python3 for various preparers and other components. We will install
 Install Ruby
 ------------
 
-Deconst uses ruby for the jekyll preparer. This is also install with homebrew. ::
+Deconst uses ruby for the jekyll preparer. This is also installed with homebrew. ::
 
   $ brew install ruby
 
