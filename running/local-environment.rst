@@ -8,11 +8,11 @@ Update brew database or install homebrew
 
 First, we need to setup (or update) homebrew on your mac. If you *already have homebrew installed*, lets just update your homebrew database\: ::
 
-  brew update
+  $ brew update
 
 If, however, you *don't have homebrew installed*, you can install it with a shell command. You can read more about brew installation on the `homebrew website <http://brew.sh>`_. ::
 
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Once you've either installed or updated your install, you should be able to run :code:`brew --version` and see the current version of your setup. ::
 
